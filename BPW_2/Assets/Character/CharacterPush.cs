@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Karakter kon de boxjes niet goed duwen maar door een script te maken die ervoor zorgt dat het karakter component een "force of collision" aan het object geeft
+
 public class CharacterPush : MonoBehaviour
 {
 
