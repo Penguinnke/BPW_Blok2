@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 35
+  CameraSpeed: 0
 --- !u!143 &44430134
 CharacterController:
   m_ObjectHideFlags: 0
