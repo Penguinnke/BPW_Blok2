@@ -9,6 +9,7 @@ TagManager:
   - WallNumber3
   - WallNumber4
   - Walls
+  - Buttons
   layers:
   - Default
   - TransparentFX

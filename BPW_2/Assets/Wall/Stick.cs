@@ -16,8 +16,14 @@ public class Stick : MonoBehaviour
         if (other.gameObject.CompareTag(StuckObjectTag))
         {
             GetComponent<Rigidbody>().isKinematic = true;
+            Debug.Log("Do something else here");
             myObject.SetActive(true);
         }
+
+        // if (other.gameObject.tag == StuckObjectTag)
+        // {
+        //     Debug.Log("Do something else here");
+        // }
     }
 
 }
