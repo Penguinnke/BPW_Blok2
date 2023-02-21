@@ -8,7 +8,6 @@ public class Character : MonoBehaviour
     private CharacterController characterController;
 
     public float Speed = 5f;
-    public float CameraSpeed;
 
     void Start()
     {
@@ -17,13 +16,13 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); //to make the character move horizontal and vertical
 
         characterController.Move(move * Time.deltaTime * Speed);
 
-        if (Input.GetMouseButton(0))
+        if (move != Vector3.zero)
         {
-            transform.eulerAngles += CameraSpeed * new Vector3(x:0, y:Input.GetAxis("Mouse X"), z:0);
+            transform.forward = move;
         }
     }
 

@@ -28,7 +28,7 @@ public class CharacterPush : MonoBehaviour
         if (rigidbody != null)
         {
             Vector3 forceDirection = hit.gameObject.transform.position - transform.position;
-            forceDirection.y = 0;
+            forceDirection.y = 2;
             forceDirection.Normalize();
 
             rigidbody.AddForceAtPosition(forceDirection * forceMagnitude, transform.position, ForceMode.Impulse);
