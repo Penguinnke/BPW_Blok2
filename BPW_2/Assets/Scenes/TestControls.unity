@@ -1019,7 +1019,7 @@ MonoBehaviour:
   Button2: {fileID: 1986045689}
   Button3: {fileID: 1790319153}
   Button4: {fileID: 1380981655}
-  sceneName: NewTestCamera
+  sceneName: CutSceneA
 --- !u!1001 &535731666
 PrefabInstance:
   m_ObjectHideFlags: 0
