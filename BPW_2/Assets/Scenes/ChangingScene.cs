@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ChangingScene : MonoBehaviour
 {
-    public int sceneID;
+    //public int sceneID;
     public GameObject Button1;
     public GameObject Button2;
     public GameObject Button3;
     public GameObject Button4;
+    public string sceneName;
     // Update is called once per frame
     void Update()
     {
@@ -21,7 +22,7 @@ public class ChangingScene : MonoBehaviour
                 {
                     if (Button4.activeInHierarchy == true)
                     {
-                         SceneManager.LoadScene(sceneID);
+                         SceneManager.LoadScene(sceneName);
                     }
                 }
             }

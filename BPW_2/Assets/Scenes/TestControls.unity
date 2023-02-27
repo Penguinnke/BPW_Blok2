@@ -849,11 +849,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33db6c92195f76e4bb1f2dd07651fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneID: 1
   Button1: {fileID: 48650927}
   Button2: {fileID: 1986045689}
   Button3: {fileID: 1790319153}
   Button4: {fileID: 1380981655}
+  sceneName: NewTestCamera
 --- !u!1001 &535731666
 PrefabInstance:
   m_ObjectHideFlags: 0
