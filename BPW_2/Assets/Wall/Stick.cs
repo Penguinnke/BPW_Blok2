@@ -5,10 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
 
-public class Stick : MonoBehaviour
+public class Stick : MonoBehaviour //Make the blocks you have to push on the platforms stick
 {
 
-    public string StuckObjectTag = "WallNumber1";
+    public string StuckObjectTag = "WallNumber1"; 
     public GameObject myObject;
 
     private void OnCollisionEnter(Collision other)
@@ -16,14 +16,9 @@ public class Stick : MonoBehaviour
         if (other.gameObject.CompareTag(StuckObjectTag))
         {
             GetComponent<Rigidbody>().isKinematic = true;
-            Debug.Log("Do something else here");
+            Debug.Log("Block touched the plate");
             myObject.SetActive(true);
         }
-
-        // if (other.gameObject.tag == StuckObjectTag)
-        // {
-        //     Debug.Log("Do something else here");
-        // }
     }
 
 }
