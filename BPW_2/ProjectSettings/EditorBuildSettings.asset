@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KeyPad.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/KeyPad2.unity
+    guid: 160f9cabf79d6f54d9310c48eb2af204
+  - enabled: 1
+    path: Assets/Scenes/KeyPad3.unity
+    guid: 04db1198e3fa9b14ba273d50e0f38d7d
   m_configObjects: {}
