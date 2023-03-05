@@ -2,13 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Keypad : MonoBehaviour
 {
     [SerializeField] private Text Ans;
-    // [SerializeField] private Animator Door;
 
-    private string Answer = "1324314";
+    public string Answer = "1324314";
+    public string sceneName;
+
+    void Update() 
+    {
+        StartCoroutine("SecondsWait");
+    }
 
     public void Number(int number)
     {
@@ -20,8 +26,6 @@ public class Keypad : MonoBehaviour
         if(Ans.text == Answer)
         {
             Ans.text = "Good job :)!";
-            // Door.SetBool("Open",true);
-            // StartCoroutine("StopDoor");
         }
         else
         {
@@ -29,9 +33,14 @@ public class Keypad : MonoBehaviour
         }
     }
 
-    // IEnumerator StopDoor()
-    // {
-    //     yield return new WaitForSeconds(0.5f);
-    //     Door.SetBool("Open", false);
-    // }
+        private IEnumerator SecondsWait()
+    {
+        if (Ans.text == Answer)
+        {
+           yield return new WaitForSeconds(4); 
+           SceneManager.LoadScene(sceneName);
+           StopCoroutine("SecondsWait");
+           Debug.Log("Coroutine stop");
+        }
+    }
 }

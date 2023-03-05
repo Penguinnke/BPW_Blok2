@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CutSceneA.unity
     guid: 8f21641e4446f87438b383367775ba64
   - enabled: 1
+    path: Assets/Scenes/CutSceneB.unity
+    guid: 32cf9a2007d5c2542b1c0f62539a831e
+  - enabled: 1
     path: Assets/Scenes/KeyPad.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
