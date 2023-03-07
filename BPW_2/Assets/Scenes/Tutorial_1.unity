@@ -802,14 +802,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'To move forward press W
+  m_text: 'Press W and S to move vertically
 
-    To move backwards press S
+    Press A and D to move horizontally
 
-    To move right
-    press D
-
-    To move left press A'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75845e9fe538c754d809d1fcbeed6728, type: 2}
   m_sharedMaterial: {fileID: -5034142226648717671, guid: 75845e9fe538c754d809d1fcbeed6728, type: 2}
@@ -836,8 +833,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.86
-  m_fontSizeBase: 37.86
+  m_fontSize: 36.86
+  m_fontSizeBase: 36.86
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1077,7 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 4
+  m_BindingMode: 0
   m_FollowOffset: {x: 0, y: 33.626602, z: -19.350399}
   m_XDamping: 20
   m_YDamping: 20
