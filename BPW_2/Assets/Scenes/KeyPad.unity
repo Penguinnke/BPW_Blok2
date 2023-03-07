@@ -2364,7 +2364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ans: {fileID: 1222897505}
   Answer: 42321
-  sceneName: CutSceneB
+  sceneName: Story16
 --- !u!114 &1969719786
 MonoBehaviour:
   m_ObjectHideFlags: 0

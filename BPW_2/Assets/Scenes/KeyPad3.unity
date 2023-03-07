@@ -453,7 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ans: {fileID: 1121000928}
   Answer: 141322314132
-  sceneName: Menu
+  sceneName: Story18
 --- !u!114 &363483559
 MonoBehaviour:
   m_ObjectHideFlags: 0

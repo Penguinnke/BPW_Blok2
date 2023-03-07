@@ -9,6 +9,63 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 989e0afa5a21e4d43896d831549be2de
   - enabled: 1
+    path: Assets/Dialogue/Story1.unity
+    guid: 269e39872bbd33b4eba8e18e037a6587
+  - enabled: 1
+    path: Assets/Dialogue/Story2.unity
+    guid: 6cd506984c02be44a8f0040aea43df82
+  - enabled: 1
+    path: Assets/Dialogue/Story3.unity
+    guid: 926164e421acfe64f86fc4182974f419
+  - enabled: 1
+    path: Assets/Dialogue/Story4.unity
+    guid: f93797ee81c40b44680ba1903811565a
+  - enabled: 1
+    path: Assets/Dialogue/Story5.unity
+    guid: aa12f0eccd781104a84ecf505a4f4f0f
+  - enabled: 1
+    path: Assets/Dialogue/Story6.unity
+    guid: af78b68cd2dcd8a4db1d2f99a9b54fa4
+  - enabled: 1
+    path: Assets/Dialogue/Story7.unity
+    guid: 5e6c2e50f6b203341839eaadb0f45450
+  - enabled: 1
+    path: Assets/Dialogue/Story8.unity
+    guid: 7002059426134404fa39efb728b8d531
+  - enabled: 1
+    path: Assets/Dialogue/Story9.unity
+    guid: 67ec21638524b8340bfc1277902e0699
+  - enabled: 1
+    path: Assets/Dialogue/Story10.unity
+    guid: 04da5b9ce70692849bd407543b9c2393
+  - enabled: 1
+    path: Assets/Dialogue/Story11.unity
+    guid: c436fdd6b7b81ac4693e447687b391f1
+  - enabled: 1
+    path: Assets/Dialogue/Story12.unity
+    guid: 5c2d1dbf3894c7841b35dd9ca3d93026
+  - enabled: 1
+    path: Assets/Dialogue/Story13.unity
+    guid: d314064156cf3ac41817886ef69354d9
+  - enabled: 1
+    path: Assets/Dialogue/Story14.unity
+    guid: b6368483188aca84aadc4ca19ed604b8
+  - enabled: 1
+    path: Assets/Dialogue/Story15.unity
+    guid: ac2550ca6d62ba14aa241099265cc4a7
+  - enabled: 1
+    path: Assets/Dialogue/Story16.unity
+    guid: e99a639043e1c244d9d5b1f4c65cf407
+  - enabled: 1
+    path: Assets/Dialogue/Story17.unity
+    guid: 11dadbcc09536244182bafc2be9ad6f4
+  - enabled: 1
+    path: Assets/Dialogue/Story18.unity
+    guid: 5906e75df539aa54ab5e412f510195e1
+  - enabled: 1
+    path: Assets/Dialogue/Story19.unity
+    guid: 4a2e6e46a40573042bbd8bc29680ed9b
+  - enabled: 1
     path: Assets/Scenes/Letter.unity
     guid: ae670222f7fe4c74bbf344fe12e7ec68
   - enabled: 1
