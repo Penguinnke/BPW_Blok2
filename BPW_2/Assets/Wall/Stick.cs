@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class Stick : MonoBehaviour //Make the blocks you have to push on the platforms stick
 {
-
+    public AudioSource audioSource;
     public string StuckObjectTag = "WallNumber1"; 
     public GameObject myObject;
 
@@ -18,6 +18,7 @@ public class Stick : MonoBehaviour //Make the blocks you have to push on the pla
             GetComponent<Rigidbody>().isKinematic = true;
             Debug.Log("Block touched the plate");
             myObject.SetActive(true);
+            audioSource.Play();
         }
     }
 
