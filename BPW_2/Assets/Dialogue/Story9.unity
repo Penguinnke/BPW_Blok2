@@ -665,7 +665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1327392195}
   lines:
-  - They get read to go space and take off...
+  - They get ready to go space and take off...
   textSpeed: 0.08
   sceneName: Story10
 --- !u!222 &1327392197
